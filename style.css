@@ -1,4 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #0f141e;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    margin: 10px;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+img {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.info-text h1 {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0f141e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.social {
+   background: red; 
+   padding: 15px;
+}
+
 .column {
     width: 100px;
     text-align: center
+}
+
+.card {
+    padding: 15px 20px;
+    background: red;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 10px 20px;
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+
+.bg-orange {
+    background-color: #FEF5E7;
+}
+
+.bg-green {
+    background-color: #EAFAF1;
+}
+
+.bg-red {
+    background-color: #FDEDEC;
+}
+
+.bg-grey {
+    background-color: #EAECEE;
 }

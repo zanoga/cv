@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Александр Занога. Резюме</title>
 </head>
 <body>
-    <div id="container">
-        <img src="img/ava.jpg" width="200px" alt="фотка">
+    <div class="container">
+        <div class="info">
+        <img src="img/img.jpg"  сlass="avatar" alt="фотка"  />
+        <div class="info-text">
         <h1>Александр Занога</h1>
             <p>Я студент курса Junior JavaScript Developer Владилена Минина.</p>
-            <p>Я люблю путешествовать, заниматься спортом и активный отдых ну и конечно же программирование.</p>
-        <hr />
-        <h1>Мои социальные сети</h1>
-        <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=100001705179594" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com/sane4echek/" target="_blank">Instagram</a></li>
-            <li><a href="https://github.com/zanoga" target="_blank">GitHub</a></li>
-            <li><a href="https://t.me/zanoga" target="_blank">Telegram</a></li>
-        </ul>
-
-        <h1>Мои хобби</h1>
-            <ol>
+            <p>Я люблю путешествовать, заниматься спортом, очень люблю активный отдых ну и конечно же программировать.</p>
+        <h4>Мои социальные сети</h4>
+            <a href="https://www.facebook.com/profile.php?id=100001705179594" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/sane4echek/" target="_blank">Instagram</a> |
+            <a href="https://github.com/zanoga" target="_blank">GitHub</a> |
+            <a href="https://t.me/zanoga" target="_blank">Telegram</a>
+        </div>
+        </div>
+            <hr />
+        <div class="card bg-green">
+        <h2>Мои хобби</h2>
+            <ol class="list">
                 <li>Программирование</li>
                 <li>Спорт</li>
                 <li>Кулинария</li>
                 <li>Путешествия</li>
                 <li>Активный отдых</li>
             </ol>
-
-            <h1>Мои цели на обучение</h1>
-            <ul>
+        </div>
+        <div class="card bg-red">
+            <h2>Мои цели на обучение</h2>
+            <ul class="list">
                 <li>Изучить JavaScript</li>
                 <li>Изучить ReactJs</li>
                 <li>Изучить NodeJs</li>
@@ -40,41 +43,44 @@
                 <li>Подтянуть Git</li>
                 <li>Найти удаленную работу</li>
             </ul>
-
-            <h1>Время на обучение</h1>
-            <table>
+        </div>
+        <div class="card bg-orange">
+            <h2>Время на обучение</h2>
+            <table class="table">
                 <tr >
                     <td>Понедельник</td>
-                    <td class="column">2-3 часов</td>
+                    <td class="column">2-3 часа</td>
                 </tr>
                 <tr>
                     <td>Вторник</td>
-                    <td class="column">2-3 часов</td>
+                    <td class="column">2-3 часа</td>
                 </tr>
                 <tr>
                     <td>Среда</td>
-                    <td class="column">2-3 часов</td>
+                    <td class="column">2-3 часа</td>
                 </tr>
                 <tr>
                     <td>Четверг</td>
-                    <td class="column">2-3 часов</td>
+                    <td class="column">2-3 часа</td>
                 </tr>
                 <tr>
                     <td>Пятница</td>
-                    <td class="column">2-3 часов</td>
+                    <td class="column">2-3 часа</td>
                 </tr>
                 <tr>
                     <td>Суббота</td>
-                    <td class="column">2-3 часов</td>
+                    <td class="column">2-3 часа</td>
                 </tr>
                 <tr>
                     <td>Воскресенье</td>
-                    <td class="column">2-3 часов</td>
+                    <td class="column">2-3 часа</td>
                 </tr>
             </table>
+        </div>
 
-            <h1>Пройденные курсы</h1>
-            <table>
+        <div class="card bg-grey">
+            <h2>Пройденные курсы</h2>
+            <table class="table">
                 <tr>
                     <th>Название</th>
                     <th>Автор</th>
@@ -97,5 +103,6 @@
                 </tr>
             </table>
         </div>
+     </div>
     </body>
 </html>
