@@ -29,11 +29,19 @@ img {
 .info {
     display: flex;
 }
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
 
+}
 .info p {
     color: #86898f;
     margin-bottom: 10px;
 }
+
+
 
 .info-text {
     margin-left: 40px;
